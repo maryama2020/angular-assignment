@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+.title i{
+    font-size: 10px;
+    color: #ffffff;
+    -webkit-text-stroke-width: 14px;
+    -webkit-text-stroke-color: rgb(44, 62, 80);
+  
+}
+.line1,.line2{
+width:25% !important;
+height: 4px;
+margin:0 20px;
+background-color: rgb(44, 62, 80);
+}
+.title h2{
+    font-size: 48px;
+    line-height: 40px;
+    color:#2c3e50;
+    font-weight: 700;
+    font-family: "Montserrat",sans-serif;
+   
+}
+.mainBg{
+    background-color:rgba(26, 188, 156, 0.63);
+}
+.Ractive{
+border:1px solid rgb(26, 188, 156);
+color:#ffffff;
+border-radius: 10px;
+background-color:rgb(26, 188, 156);
+
+}

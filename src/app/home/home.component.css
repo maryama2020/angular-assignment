@@ -1,0 +1,35 @@
+.home{
+    background-color: #1abc9c;
+ 
+ 
+}
+.home img{
+    width:20% !important
+}
+.home h1{
+    font-size: 64px;
+    line-height: 56px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif ;
+ 
+    
+}
+.home p{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300 !important;
+    color: #ffffff;
+    font-family: "Lato", sans-serif !important;
+}
+i{
+    font-size: 10px;
+    color: #ffffff;
+    -webkit-text-stroke-width: 14px;
+    -webkit-text-stroke-color: #ffffff;
+}
+.line1,.line2{
+width:32%;
+height: 4px;
+margin:0 20px;
+}

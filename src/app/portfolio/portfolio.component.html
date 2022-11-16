@@ -1,0 +1,67 @@
+<div class="portfolios pt-5">
+  <div class="title mt-5 p-5">
+  <div class="container text-center">
+          <h2>PORTFOLIO</h2>
+          <div class="mx-auto  w-50 mt-3 divide d-flex justify-content-center align-items-center" >
+              <div class="line1 ">
+      
+              </div>
+              <div class="icon">
+                  <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="line2  ">
+      
+              </div>
+           </div>
+  </div>
+  </div>
+  <div class="items">
+      <div class="container">
+          <div class="row gy-4 gx-4">
+              <div class="col-md-4" *ngFor="let item of imgs">
+                <div class="item position-relative ">
+                      <img class="w-100 rounded" [src]="item.src" alt="">
+                    <div data-bs-toggle="modal" [attr.data-bs-target]="'#'+item.id" class="layer mainBg text-center position-absolute">
+                      <i  class="fa fa-plus-square"></i>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="{{item.id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+      <div class="modal-dialog modal-xl p-5">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center p-4">
+              <div class="title mb-4">
+                  <div class="container text-center">
+                          <h2>{{item.title}}</h2>
+                          <div class="mx-auto  w-50 mt-3 divide d-flex justify-content-center align-items-center" >
+                              <div class="line1 ">
+                      
+                              </div>
+                              <div class="icon">
+                                  <i class="fa-regular fa-star"></i>
+                              </div>
+                              <div class="line2  ">
+                      
+                              </div>
+                           </div>
+                  </div>
+                  </div>
+            <img [src]="item.src" class="w-75" alt="">
+            <p class="mb-3 mt-4  m-auto ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+          </div>
+          <div class="p-3 mb-2">
+            <button type="button" class="btn close" data-bs-dismiss="modal"><i class="fa-solid fa-xmark px-2"></i>Close Window</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

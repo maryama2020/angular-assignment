@@ -1,0 +1,27 @@
+.line1,.line2{
+    background-color: #ffffff;
+ }
+ .title h2{
+   color:#ffffff;   
+       
+ }
+ .title i{
+      
+ -webkit-text-stroke-color: #ffffff
+      
+ }
+ .about{
+    color:rgb(241, 255, 255);
+    background-color: rgb(26, 188, 156);
+ }
+ .about p{
+    font-size:20px;
+    font-weight: 400;
+    font-family: 'Lato',sans-serif;
+    line-height:30px;
+    padding:30px;
+  
+ }
+ /* .caption{
+    width:78%
+ } */

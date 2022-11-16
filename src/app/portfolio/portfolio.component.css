@@ -1,0 +1,43 @@
+
+.line1,.line2{
+    background-color: rgb(44, 62, 80);
+    }
+.layer{
+    left:0;
+    right:0;
+    bottom:-50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s linear;
+}
+.item{
+    transition: all 1s linear;
+    overflow: hidden;
+}
+.item:hover .layer{
+ top:0;
+}
+.fa-plus-square{
+    font-size: 50px;
+    color: #ffffff;
+
+}
+.modal-body img{
+    border-radius: 10px;
+}
+
+.modal-body p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Lato",sans-serif;
+    color:#212529;
+    width: 70%;
+}
+.close{
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    color:#ffffff;
+}
+
